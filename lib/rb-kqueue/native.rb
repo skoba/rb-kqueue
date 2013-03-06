@@ -12,7 +12,7 @@ module KQueue
     # The C struct describing a kqueue event.
     #
     # @private
-    class KEvent < FFI::Struct
+    class KEvent < ::FFI::Struct
       layout(
         :ident,  :uintptr_t,
         :filter, :int16,

@@ -25,5 +25,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency(%q<ffi>, [">= 0.5.0"])
   gem.add_development_dependency(%q<yard>, [">= 0.4.0"])
+  gem.add_development_dependency('rspec')
+  gem.add_development_dependency('rake')
 end
 
