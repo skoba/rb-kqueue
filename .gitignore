@@ -2,3 +2,8 @@
 /.yardoc
 /doc
 Gemfile.lock
+*~
+*#
+
+\#*
+.\#*
